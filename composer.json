@@ -19,8 +19,52 @@
         }
     ],
     "require": {
+        "itlo/cms": "^0.0.1 || dev-master",
         "itlo/cms-basic": "^0.0.1 || dev-master"
     },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "itlo/cms",
+                "version": "0.0.1",
+
+                "source": {
+                    "url": "git@github.com:itlo-cms/cms.git",
+                    "type": "git",
+                    "reference": "dev"
+                },
+                "autoload": {
+                    "classmap": [""]
+                }
+            }
+        },
+        {
+            "type": "github",
+            "url": "git@github.com:itlo-cms/cms.git"
+        },
+
+        {
+            "type": "package",
+            "package": {
+                "name": "itlo/cms-basic",
+                "version": "0.0.1",
+
+                "source": {
+                    "url": "git@github.com:itlo-cms/cms-basic.git",
+                    "type": "git",
+                    "reference": "dev"
+                },
+                "autoload": {
+                    "classmap": [""]
+                }
+            }
+        },
+        {
+            "type": "github",
+            "url": "git@github.com:itlo-cms/cms-basic.git"
+        }
+    ],
     "require-dev": {
         "yiisoft/yii2-debug": "*"
     },
@@ -137,28 +181,7 @@
             ]
         }
     },
-    "repositories": [
-        {
-            "type": "package",
-            "package": {
-                "name": "itlo/cms-basic",
-                "version": "0.0.1",
 
-                "source": {
-                    "url": "git@github.com:itlo-cms/cms-basic.git",
-                    "type": "git",
-                    "reference": "dev"
-                },
-                "autoload": {
-                    "classmap": [""]
-                }
-            }
-        },
-        {
-            "type": "github",
-            "url": "git@github.com:itlo-cms/cms-basic.git"
-        }
-    ],
     "config": {
         "process-timeout": 1800,
         "discard-changes": true
