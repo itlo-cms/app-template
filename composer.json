@@ -24,6 +24,7 @@
     "require-dev": {
         "yiisoft/yii2-debug": "*"
     },
+    "minimum-stability" : "dev",
     "prefer-stable" : true,
     "scripts": {
         "post-create-project-cmd": [
