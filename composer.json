@@ -1,6 +1,8 @@
 {
     "name": "itlo/app-template",
     "description": "Шаблон корпоративного сайта на ITLO-CMS",
+    "version": "0.0.1",
+
     "keywords": ["framework", "cms", "skeeks", "sx", "app", "yii2"],
     "homepage": "https://cms.skeeks.com",
     "type": "project",
@@ -136,8 +138,24 @@
     },
     "repositories": [
         {
-            "type": "composer",
-            "url": "https://asset-packagist.org"
+            "type": "package",
+            "package": {
+                "name": "itlo/cms",
+                "version": "0.0.1",
+
+                "source": {
+                    "url": "git@github.com:itlo-cms/app-template.git",
+                    "type": "git",
+                    "reference": "dev"
+                },
+                "autoload": {
+                    "classmap": [""]
+                }
+            }
+        },
+        {
+            "type": "github",
+            "url": "git@github.com:itlo-cms/app-template.git"
         }
     ],
     "config": {
