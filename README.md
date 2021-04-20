@@ -1,13 +1,8 @@
-Base app on SkeekS CMS (Yii2)
+Шаблон корпоративного сайта
 ================
+ 
 
-[![skeeks!](https://cms.skeeks.com/uploads/all/35/fd/33/35fd33aa306823dbaf53a0142d43b3fa.png)](http://cms.skeeks.com)
-
-[![Latest Stable Version](https://poser.pugx.org/skeeks/app-basic/v/stable.png)](https://packagist.org/packages/skeeks/app-basic)
-[![Total Downloads](https://poser.pugx.org/skeeks/app-basic/downloads.png)](https://packagist.org/packages/skeeks/app-basic)
-
-
-Links
+Ссылки
 -----
 
 * [Web site](https://cms.skeeks.com)
@@ -17,7 +12,7 @@ Links
 * [Facebook](https://www.facebook.com/skeekscom)
 * [Vk](https://vk.com/skeeks_com)
 
-Installation
+Установка
 ------------
 
 ```bash
@@ -25,7 +20,7 @@ Installation
 curl -sS https://getcomposer.org/installer | COMPOSER_HOME=.composer php
 
 # Installing the base project SkeekS CMS
-COMPOSER_HOME=.composer php composer.phar create-project --prefer-dist --stability=dev skeeks/app-basic demo.ru
+COMPOSER_HOME=.composer php composer.phar create-project --prefer-dist --stability=dev itlo/app-template demo.ru
 # Going into the project folder
 cd demo.ru
 
