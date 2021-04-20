@@ -20,5 +20,5 @@ if (
 }
 
 //Загрузка и запуск web приложения skeeks
-include ROOT_DIR . '/vendor/skeeks/cms/app-web.php';
+include ROOT_DIR . '/vendor/itlo/cms/app-web.php';
 
