@@ -14,11 +14,11 @@ $config = [
         'urlManager' => [
             'rules' => [
                 [
-                    'class'             => \skeeks\cms\components\urlRules\UrlRuleContentElement::className(),
+                    'class'             => \itlo\cms\components\urlRules\UrlRuleContentElement::className(),
                 ],
 
                 [
-                    'class'             => \skeeks\cms\components\urlRules\UrlRuleTree::className(),
+                    'class'             => \itlo\cms\components\urlRules\UrlRuleTree::className(),
                 ]
             ]
         ],
