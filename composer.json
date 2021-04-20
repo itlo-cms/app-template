@@ -140,11 +140,11 @@
         {
             "type": "package",
             "package": {
-                "name": "itlo/cms",
+                "name": "itlo/cms-basic",
                 "version": "0.0.1",
 
                 "source": {
-                    "url": "git@github.com:itlo-cms/app-template.git",
+                    "url": "git@github.com:itlo-cms/cms-basic.git",
                     "type": "git",
                     "reference": "dev"
                 },
@@ -155,7 +155,7 @@
         },
         {
             "type": "github",
-            "url": "git@github.com:itlo-cms/app-template.git"
+            "url": "git@github.com:itlo-cms/cms-basic.git"
         }
     ],
     "config": {

@@ -1,0 +1,41 @@
+{
+	"name": "skeeks/cms-backend-admin",
+	"description": "Admin controll panel for SkeekS CMS",
+	"keywords": ["yii", "skeeks", "framework", "component", "admin"],
+    	"homepage": "https://cms.skeeks.com/",
+	"type": "yii2-extension",
+	"license": "BSD-3-Clause",
+	"support": {
+        "issues": "https://skeeks.com/",
+        "wiki": "https://cms.skeeks.com/docs/",
+        "source": "https://github.com/skeeks-cms/cms-backend-admin"
+    },
+	"authors": [
+		{
+			"name": "Semenov Alexander",
+			"email": "semenov@skeeks.com"
+		}
+	],
+	"require": {
+		"skeeks/cms": "^5.6.0 || dev-master",
+		"skeeks/cms-theme-unify-v2": "^1.1.0 || dev-master"
+	},
+    "autoload": {
+        "psr-4": {
+            "skeeks\\cms\\admin\\": "src/"
+        }
+    },
+	"extra": {
+        "config-plugin": {
+            "common": "src/config/common.php",
+            "web": [
+                "src/config/common.php",
+                "src/config/web.php"
+            ],
+            "console": [
+                "src/config/common.php",
+                "src/config/console.php"
+            ]
+        }
+    }
+}
