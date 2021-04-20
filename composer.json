@@ -36,9 +36,9 @@
             "yii\\composer\\Installer::postInstall"
         ],
         "post-update-cmd": [
-            "skeeks\\cms\\composer\\Installer::clearDirs",
+            "itlo\\cms\\composer\\Installer::clearDirs",
             "php yii cms/migrate --interactive=0",
-            "skeeks\\cms\\composer\\Installer::clearDirs",
+            "itlo\\cms\\composer\\Installer::clearDirs",
             "php yii rbac/init",
             "php yii cmsAgent/init"
         ],
