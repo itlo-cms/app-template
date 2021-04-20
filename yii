@@ -21,7 +21,7 @@ define("APP_CONFIG_DIR",        realpath(APP_DIR . '/config'));
 define("APP_RUNTIME_DIR",       realpath(APP_DIR . '/runtime'));
 
 //Загрузка и запуск web приложения skeeks
-$skeeksFile = ROOT_DIR . '/vendor/skeeks/cms/app-console.php';
+$skeeksFile = ROOT_DIR . '/vendor/itlo/cms/app-console.php';
 
 if (!file_exists($skeeksFile))
 {
