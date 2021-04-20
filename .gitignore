@@ -1,5 +1,6 @@
 # Created by .gitignore support plugin (hsz.mobi)
 /docs/_build
+vendor
 # phpstorm project files
 .idea
 # sublime text project / workspace files
