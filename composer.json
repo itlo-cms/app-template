@@ -17,7 +17,7 @@
         }
     ],
     "require": {
-        "itlo/cms-basic": "^1.1.0"
+        "itlo/cms-basic": "^0.0.1 || dev-master"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "*"
