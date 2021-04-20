@@ -1,6 +1,8 @@
 {
-    "name": "itlo/app-basic",
+    "name": "itlo/app-template",
     "description": "Шаблон корпоративного сайта на ITLO-CMS",
+    "version": "0.0.1",
+
     "keywords": ["framework", "cms", "skeeks", "sx", "app", "yii2"],
     "homepage": "https://cms.skeeks.com",
     "type": "project",
@@ -17,8 +19,52 @@
         }
     ],
     "require": {
+        "itlo/cms": "^0.0.1 || dev-master",
         "itlo/cms-basic": "^0.0.1 || dev-master"
     },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "itlo/cms",
+                "version": "0.0.1",
+
+                "source": {
+                    "url": "git@github.com:itlo-cms/cms.git",
+                    "type": "git",
+                    "reference": "dev"
+                },
+                "autoload": {
+                    "classmap": [""]
+                }
+            }
+        },
+        {
+            "type": "github",
+            "url": "git@github.com:itlo-cms/cms.git"
+        },
+
+        {
+            "type": "package",
+            "package": {
+                "name": "itlo/cms-basic",
+                "version": "0.0.1",
+
+                "source": {
+                    "url": "git@github.com:itlo-cms/cms-basic.git",
+                    "type": "git",
+                    "reference": "dev"
+                },
+                "autoload": {
+                    "classmap": [""]
+                }
+            }
+        },
+        {
+            "type": "github",
+            "url": "git@github.com:itlo-cms/cms-basic.git"
+        }
+    ],
     "require-dev": {
         "yiisoft/yii2-debug": "*"
     },
@@ -135,12 +181,7 @@
             ]
         }
     },
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://asset-packagist.org"
-        }
-    ],
+
     "config": {
         "process-timeout": 1800,
         "discard-changes": true
