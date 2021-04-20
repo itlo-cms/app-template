@@ -47,12 +47,6 @@ Documentation
 Screenshots
 -------------
 
-[![skeeks!](https://cms.skeeks.com/uploads/all/11/46/fc/1146fc43f1f4663a70b9d1101e550863.png)](http://cms.skeeks.com)
+[![itlo!](https://cms.skeeks.com/uploads/all/11/46/fc/1146fc43f1f4663a70b9d1101e550863.png)](http://cms.skeeks.com)
 
 
-
-___
-
-> [![skeeks!](https://skeeks.com/img/logo/logo-no-title-80px.png)](https://skeeks.com)  
-<i>SkeekS CMS (Yii2) — quickly, easily and effectively!</i>  
-[skeeks.com](https://skeeks.com) | [cms.skeeks.com](https://cms.skeeks.com)
