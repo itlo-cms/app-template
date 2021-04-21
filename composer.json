@@ -19,14 +19,12 @@
         }
     ],
     "require": {
-        "itlo/cms-basic": "^0.0.1"
+        "itlo/cms-basic": "^0.0.1 || dev-master"
     },
 
     "require-dev": {
         "yiisoft/yii2-debug": "*"
-    },
-    "minimum-stability" : "dev",
-    "prefer-stable" : true,
+    }, 
     "scripts": {
         "post-create-project-cmd": [
             "yii\\composer\\Installer::postCreateProject",
