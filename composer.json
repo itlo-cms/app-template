@@ -19,7 +19,7 @@
         }
     ],
     "require": {
-        "itlo/cms-basic": "^0.0.1 || dev-master"
+        "itlo/cms-basic": "^0.0.2 || dev-master"
     },
 
     "require-dev": {
